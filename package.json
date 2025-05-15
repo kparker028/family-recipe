@@ -7,7 +7,6 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"generate": "graphql-codegen",
 		"db:generate": "drizzle-kit generate",
 		"db:migrate": "drizzle-kit up"
 	},
@@ -17,8 +16,6 @@
 		"drizzle-orm": "^0.41.0",
 		"eslint": "8.42.0",
 		"eslint-config-next": "13.4.4",
-		"graphql": "^16.6.0",
-		"graphql-request": "^6.1.0",
 		"mysql2": "^3.14.0",
 		"next": "15.2.4",
 		"react": "^18.2.0",
@@ -27,8 +24,6 @@
 		"typescript": "^5.3.3"
 	},
 	"devDependencies": {
-		"@graphql-codegen/cli": "^5.0.0",
-		"@graphql-codegen/client-preset": "^4.1.0",
 		"@tailwindcss/cli": "^4.1.7",
 		"@tailwindcss/postcss": "^4",
 		"@types/node": "^20",
