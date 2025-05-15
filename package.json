@@ -7,28 +7,38 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"generate": "graphql-codegen"
+		"generate": "graphql-codegen",
+		"db:generate": "drizzle-kit generate",
+		"db:migrate": "drizzle-kit up"
 	},
 	"dependencies": {
 		"@types/node": "20.2.5",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
+		"dotenv": "^16.4.7",
+		"drizzle-orm": "^0.41.0",
 		"eslint": "8.42.0",
 		"eslint-config-next": "13.4.4",
 		"graphql": "^16.6.0",
 		"graphql-request": "^6.1.0",
+		"mysql2": "^3.14.0",
+		"next": "15.2.4",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
 		"react-query": "^3.39.3",
-		"typescript": "^5.3.3",
-		"next": "15.2.4"
+		"typescript": "^5.3.3"
 	},
 	"devDependencies": {
 		"@graphql-codegen/cli": "^5.0.0",
 		"@graphql-codegen/client-preset": "^4.1.0",
-		"typescript": "^5",
+		"@tailwindcss/cli": "^4.1.7",
+		"@tailwindcss/postcss": "^4",
 		"@types/node": "^20",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
-		"@tailwindcss/postcss": "^4",
-		"tailwindcss": "^4"
+		"autoprefixer": "^10.4.21",
+		"drizzle-kit": "^0.30.6",
+		"postcss": "^8.5.3",
+		"tailwindcss": "^4.1.7",
+		"tsx": "^4.19.3",
+		"typescript": "^5"
 	}
 }
